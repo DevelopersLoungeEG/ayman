@@ -1,0 +1,91 @@
+/* start global style */
+*{
+     font-family: 'Srisakdi', cursive;
+    font-family: 'Courgette', cursive;
+}
+.name { /* just like Ali*/
+    color: #bbb5b5;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: absolute;
+    top: 15%;
+    left: 42%
+}
+.over-lay {
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+     padding-top: 50px;
+    z-index: 15
+}
+/* start global style */
+
+/* start carousel style */
+.item .info img {position: relative; left: -25%; border-radius: 115px}
+.carousel-inner .info > p {
+    position: absolute;
+    color: #FFF;
+    text-transform: capitalize;
+    left: 41%;
+    top: 32%;
+    width: 40%
+}
+/* end carousel style */
+
+/* start thumbnails style */
+.thumbnails {
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    bottom: 25%;
+    margin-left: 6%;
+    border-top: 1px solid rgba(245, 245, 245, 0.2);
+    padding-top: 20px
+}
+.thumbnails img {
+    float: left;
+    width: 48%;
+    height: 75%;
+    margin: 10px;
+    border-radius: 10%
+}
+.thum-info { 
+    border: 1px solid transparent; 
+    border-right: 1px solid rgba(245, 245, 245, 0.2);
+    padding: 10px;
+    padding-bottom: 15px;
+    opacity: .4;
+    transition: all .2s ease-in-out;
+    width: 301px;
+    height: 129px
+}
+.thum-info:last-of-type {
+    border: 1px solid transparent
+}
+.thum-info:hover {
+    border: 1px solid #BBB;
+    cursor: pointer;
+    opacity: 1
+}
+.thum-info:active {
+    background-color: dodgerblue;
+    border: 1px solid transparent
+}
+
+.thum-info .info {
+    margin-top: 25px
+} 
+.info .thum-name {
+    color: #bbb5b5;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.thum-info .developer {
+    display: block;
+    color: #FFF;
+    text-transform: capitalize
+}
+/* end thumbnails style */
